@@ -1,0 +1,252 @@
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/ep_naturalwhite.png");
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #4aaaa5;
+    height: 90px;
+    width: 250px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 90px;
+    text-align: center;
+    float: left;
+}
+
+table {
+    height: 80px;
+    float: right;
+}
+
+td {
+    color: #efefef;
+    padding: 5px;
+}
+
+a {
+    color: #999999;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 20px 0px 30px 0px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-bottom: 3px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+h2 {
+    margin: 20px 0px 10px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    font-weight: normal;
+}
+
+#contentWrapper img {
+    margin: 0px 20px 20px 0px;
+    float: left;
+}
+
+p {
+    margin: -12px 0px 30px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    font-weight: normal;
+    line-height: 2em;
+}
+
+input, textarea {
+    padding-left: 10px;
+    width: calc(100% - 12px);
+    height: 30px;
+    border: 1px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    outline: none;
+}
+
+textarea {
+    min-height: 30px;
+    height: 188px;
+    padding-top: 8px;
+    resize: vertical;
+    overflow: auto;
+}
+
+button {
+    height: 45px;
+    width: 130px;
+    margin-top: 20px;
+    background-color: #4aaaa5;
+    border: none;
+    font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 38px 0px 4px 0px;
+    overflow: auto;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    text-align: center;
+    color: #cccccc;
+}
+
+#topBar {
+    min-height: 90px;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+}
+
+#topBar div {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+#contentWrapper {
+    margin: 40px auto 84px auto;
+    padding: 20px;
+    min-height: 500px;
+    width: 916px;
+    background-color: white;
+    border: 2px solid #dddddd;
+}
+
+#contentWrapper img {
+    height: 250px;
+    width: auto;
+}
+
+#slowpossumsDen {
+    background-image: url("../images/slowpossumsDen.png");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin: 0px 30px 30px 0px;
+    padding: 0px;
+    float: left;
+    outline: none;
+}
+
+#fanpage {
+    background-image: url("../images/fanpage.png");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin: 0px 30px 30px 0px;
+    padding: 0px;
+    float: left;
+    outline: none;
+}
+
+#art {
+    background-image: url("../images/birthdayCube.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin: 0px 30px 30px 0px;
+    padding: 0px;
+    float: left;
+    outline: none;
+}
+
+.label {
+    background-color: #4aaaa5;
+    height: 70px;
+    width: 100%;
+    margin-top: 150px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.quote {
+    text-align: center;
+    font-weight: bold;
+    color: #6b6b6b;
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        margin-left: 40px;
+    }
+
+    #contentWrapper {
+        margin-left: 40px;
+        width: 580px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        margin-left: 20px;
+    }
+
+    #contentWrapper {
+        margin: 20px 10px 84px 10px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        width: 100%;
+        float: none;
+        margin: 0px;
+    }
+
+    table {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #contentWrapper {
+        margin: 10px 10px 74px 10px;
+        width: auto;
+        float: none;
+    }
+
+    #contentWrapper img {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        height: auto;
+    }
+
+    #slowpossumsDen, #fanpage, #art {
+        width: 100%;
+        height: auto;
+    }
+}
